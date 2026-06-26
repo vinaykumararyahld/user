@@ -4,7 +4,7 @@ class DBHelper:
         self.con=connector.connect(host='localhost',
                                    port='3306',
                                    user='root',
-                                   password='Vinay@1998',
+                                   password='pass. that you call your sql pass',
                                    database='pythontest')
         query='create table if not exists user(userId int primary key, username varchar(200), phone varchar(12))'
         cur = self.con.cursor()
